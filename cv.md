@@ -39,5 +39,7 @@ function isValidIP(str) {
 * [Codewars](https://www.codewars.com/users/aessiq)
 * [Freecodecamp](https://www.freecodecamp.org/aessiq)
 * Udemy courses: [web developer](https://www.udemy.com/course/webdeveloper/) and [Javascript + React](https://www.udemy.com/course/javascript_full/)
+* Youtube videos
+* Stack Overflow
 ### English
-My level is B2, at the moment I work in support, where 95% of requests are in English. My writing and listening skills are good, but my speaking skills need some practice.
+My level is B2, currently I am working as a customer support and most of requests are in English. My writing and listening skills are good, but my speaking skills need some practice.
