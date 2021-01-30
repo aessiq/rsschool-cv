@@ -29,3 +29,15 @@ function isValidIP(str) {
   return true;
 }
 ```
+### Experience
+* After I learned HTML/CSS, I chose a PSD template and made a website based on it. The site itself is available via the link: https://aessiq.github.io/wooder/, and its source code is [here](https://github.com/aessiq/aessiq.github.io/tree/master/wooder).
+* I also like solving katas at Codewars, my profile is available [here](https://www.codewars.com/users/aessiq).
+### Education
+* North-West Institute of Management of Presidential Academy of National Economy and Public Administration (NWIM RANEPA), Public and municipal administration, Bachelor, 2017.
+* [W33 School (HTML/CSS)](https://www.w3schools.com/)
+* [Learn.javascript.ru](https://learn.javascript.ru/)
+* [Codewars](https://www.codewars.com/users/aessiq)
+* [Freecodecamp](https://www.freecodecamp.org/aessiq)
+* Udemy courses: [web developer](https://www.udemy.com/course/webdeveloper/) and [Javascript + React](https://www.udemy.com/course/javascript_full/)
+### English
+My level is B2, at the moment I work in support, where 95% of requests are in English. My writing and listening skills are good, but my speaking skills need some practice.
