@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CV: Ruslan Omarov</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <h1>CV: Ruslan Omarov</h1>
+
+      <div class="contacts"> 
+        <h3>Contacts</h3>
+        <ul>
+          <li>noriod@yandex.ru - preferred</li>
+          <li>Telegram: @aessiq</li>
+          <li>Phone: +7 906 255 77 88</li>
+        </ul>        
+      </div>
+
+      <div class="summary">
+        <h3>Summary</h3>
+        Back at school I liked programming (in Pascal, but it was interesting to solve problems), I really wanted to make my own website, bought a book and studied HTML, I wanted to enter a university to study computer science, but somewhere I turned the wrong way and it ended up graduating as a civil servant. I started working, but not in my specialty (*he-he, classic*), even managed to work at McDonald's (memes were right), and accidentally came across an advertisement for the free part of programming courses. I decided to try it and I really liked it. I did not buy the course, but I myself studied HTML/CSS at <a href="https://www.w3schools.com/">W33 School</a> in about a month, made up the first website and started learning JavaScript at <a href="https://learn.javascript.ru/">https://learn.javascript.ru/</a>. While I was learning JS, I decided to try to submit my CV somewhere near IT and I was lucky - I got a job as a Customer Support Engineer at Saber Interactive. The new job distracted me a little from my studies, but now I took it up again and my colleague just suggested your courses to me, so I decided to try it. 
+      </div>
+
+      <div class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Basic Javascript</li>
+          <li>Git and Github</li>
+          <li>English B2</li>
+          <li>Photoshop/Figma</li>
+          <li>2k+ arena rating in WoW</li>
+        </ul>        
+      </div>
+
+      <div class="codeExamples">
+        <h3>Code examples</h3>
+        <pre>
+          function isValidIP(str) {
+            let arr = str.split('.');
+            for (let i = 0; i < arr.length; i++) {
+              if ( isNaN(+arr[i] ) ) return false;
+              if (arr[i] < 0 || arr[i] > 255) return false;
+              if (arr[i].length > 1 & (arr[i])[0] == 0) return false; 
+              for (let j = 0; j < arr[i].length; j++) {
+                if ( arr[i].codePointAt(j) < '0'.codePointAt(0) || arr[i].codePointAt(j) > '9'.codePointAt(0) ) return false;
+              }  
+              if (arr.length != 4 || arr[i].length == 0) return false;
+            }
+            return true;
+          }
+        </pre>
+      </div>
+
+      <div class="experience">
+        <h3>Experience</h3>
+        <ul>
+          <li>After I learned HTML/CSS, I chose a PSD template and made a website based on it. The site itself is available via the link: <a href="https://aessiq.github.io/wooder/">https://aessiq.github.io/wooder/</a>, and its source code is <a href="https://github.com/aessiq/aessiq.github.io/tree/master/wooder">here.</a></li>
+          <li>I also like solving katas at Codewars, my profile is available <a href="https://www.codewars.com/users/aessiq">here.</a></li>
+        </ul>
+      </div>
+
+      <div class="education">
+        <h3>Education</h3>
+        <ul>
+          <li>North-West Institute of Management of Presidential Academy of National Economy and Public Administration (NWIM RANEPA), Public and municipal administration, Bachelor, 2017.</li>
+          <li><a href="https://www.w3schools.com/">W33 School (HTML/CSS)</a></li>
+          <li><a href="https://learn.javascript.ru/">Learn.javascript.ru</a></li>
+          <li><a href="https://www.codewars.com/users/aessiq"></a>Codewars</li>
+          <li><a href="https://www.freecodecamp.org/aessiq">Freecodecamp</a></li>
+          <li>Udemy courses: <a href="https://www.udemy.com/course/webdeveloper/">web developer</a> and <a href="https://www.udemy.com/course/javascript_full/">Javascript + React</a></li>
+          <li>Youtube videos</li>
+          <li>Stack Overflow</li>
+        </ul>        
+      </div>
+
+      <div class="english">
+        <h3>English</h3>
+        My level is B2, currently I am working as a customer support and most of requests are in English. My writing and listening skills are good, but my speaking skills need some practice.
+      </div>
+
+    </main>
+  </body>
+</html>

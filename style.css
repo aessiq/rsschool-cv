@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
