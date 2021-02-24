@@ -4,6 +4,19 @@
   box-sizing: border-box;  
 }
 
+header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 150px;
+  position: relative;
+  right: 50px;
+}
+
 main {
   width: 1000px;
   margin: 0 auto;
@@ -12,4 +25,15 @@ main {
 h3 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  height: 50px;
 }
